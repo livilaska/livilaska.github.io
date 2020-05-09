@@ -1,3 +1,13 @@
+@font-face {
+    font-family: KaushanScript;
+    src: url("../fonts/KaushanScript-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url("../fonts/Quicksand-Regular.woff") format("woff");
+}
+
 body {
     margin: 0;
     padding-top: 120px;
@@ -45,16 +55,19 @@ header {
 .home-section-inner-1 {
     margin: auto;
     max-width: 1200px;
-    color: #7cae49;
+    color:gray;
+    font-family: Quicksand;
+    
 }
 
 .home-section-inner-1 h2 {
-    font-weight: 700;
-    font-size: 1.5em;
+    font-family: KaushanScript;
+    font-weight: 500;
+    font-size: 3em;
     padding-top: 50px;
     margin-top: 0px;
-    text-transform: uppercase;
-    letter-spacing: .25em;
+    letter-spacing: .05em;
+    color: #7cae49;
 }
 
 .connect-grid-container {
@@ -68,9 +81,10 @@ header {
 }
 
 .connect-grid-item h3 {
-    text-transform: uppercase;
-    font-size: .85em;
-    letter-spacing: .25em;
+    font-family: Quicksand;
+    font-size: 1em;
+    letter-spacing: .05em;
+    font-weight: 900;
 }
 
 .facebook a {
