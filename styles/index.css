@@ -151,12 +151,13 @@ footer {
     display: none;
 }
 
-.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after,
+.hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner::before, .hamburger.is-active .hamburger-inner::after{
     background-color: #7cae49;
 }
 
-button.active {
-    outline: none;
+button.hamburger:focus {
+    outline:0;
 }
 
 
@@ -170,12 +171,12 @@ button.active {
     text-align: center;
     padding: 0;
     border-bottom: 2px solid #eee;
-    
+    background-color: #fff;
     }
 
     .nav-links {
         position: absolute;
-        top: 63px;
+        top: 120px;
         left: 0px;
         width: 100%;
         opacity: 0;
