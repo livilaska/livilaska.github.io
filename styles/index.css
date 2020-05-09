@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    padding-top: 120px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.home-image {
+    background: url("../images/vegetables.jpg") no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.home-image-inner {
+    color:#fff;
+    text-align: center;
+    font-family: sans-serif;
+    height: 500px;
+
+}
+
+.home-image-inner h2 {
+    text-transform: uppercase;
+    letter-spacing: .25em;
+    font-weight: 500;
+    font-size: 2em;
+    padding-top: 50px;
+    margin-top: 0px;
+}
+
+.home-section-1 {
+    text-align: left;
+    font-family: sans-serif;
+    height: 500px;
+    padding: 0 25px;
+}
+
+.home-section-inner-1 {
+    margin: auto;
+    max-width: 1200px;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #7cae49;
+    text-transform: uppercase;
+}
+
+.home-section-inner-1 h2 {
+    font-weight: 500;
+    font-size: 1.5em;
+    padding-top: 50px;
+    margin-top: 0px;
+    color: #7cae49;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+footer {
+    height: 450px;
+    background-color:#f9f5ee;
+    width: 100%;
+    color: #000;    
+
+}
+
+.nav {
+    height: 120px;
+    max-width: 1200px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    padding: 0 25px;
+}
+
+.footer-content {
+    height: 150px;
+    max-width: 1200px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-between;
+    padding: 15px 15px;
+}
+
+.footer-copyright {
+    font-size: .90em;
+    align-self: center;
+    margin-top: 48px;
+}
+
+.footer-brand {
+    font-size: 1.5em;
+    margin-bottom: 25px;
+    align-self: flex-end;
+}
+
+.nav-brand {
+    display: inline-block;
+}
+
+.nav-brand a {
+    text-decoration: none;
+    color: #7cae49;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: .25em;
+}
+
+.nav-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    padding: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #7cae49;
+    font-size: .85em;
+    opacity: .75;
+    transition: opacity 0.3s linear ;
+    padding: 15px;
+    text-transform: uppercase;
+    letter-spacing: .25em;
+}
+
+
+.nav-links a:hover {
+    opacity: 1;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger img {
+    width:1.75em;
+}
+
+@media only screen and (max-width: 768px) {
+    .hamburger {
+        display: inline-block;
+    }
+
+    .nav-links li {
+    display: block;
+    text-align: center;
+    padding: 0;
+    border-bottom: 2px solid #eee;
+    
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 63px;
+        left: 0px;
+        width: 100%;
+        opacity: 0;
+
+    }
+
+    .nav-links a {
+        display: block;
+        padding: 15px 0;
+        /*color: #fff;
+        background-color: #2B6592;*/
+        opacity: 1;
+    }
+
+    .hamburger-show-nav-links {
+        opacity: 1;
+    }
+
+}
+
+
+
