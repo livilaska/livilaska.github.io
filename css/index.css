@@ -36,7 +36,7 @@ header {
 }
 
 .home-section-1 {
-    text-align: left;
+    text-align: center;
     font-family: sans-serif;
     height: 500px;
     padding: 0 25px;
@@ -45,24 +45,75 @@ header {
 .home-section-inner-1 {
     margin: auto;
     max-width: 1200px;
-    font-weight: 700;
-    font-size: 1.5em;
     color: #7cae49;
-    text-transform: uppercase;
 }
 
 .home-section-inner-1 h2 {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 1.5em;
     padding-top: 50px;
     margin-top: 0px;
-    color: #7cae49;
     text-transform: uppercase;
+    letter-spacing: .25em;
 }
 
+.connect-grid-container {
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.connect-grid-item {
+    text-align: center;
+    font-size: 1.25em;
+    padding: 20px;
+}
 
+.connect-grid-item h3 {
+    text-transform: uppercase;
+    font-size: .85em;
+    letter-spacing: .25em;
+}
 
+.facebook a {
+    background: url("../images/facebook_logo.png") no-repeat;
+    display:inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+}
 
+.facebook div {
+    display:block;
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+.newsletter a {
+    background: url("../images/newsletter.png") no-repeat;
+    display:inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+}
+
+.newsletter div {
+    display:block;
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+.events a {
+    background: url("../images/calendar.png") no-repeat;
+    display:inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+}
+
+.events div {
+    display:block;
+    height: 50px;
+    margin-bottom: 25px;
+}
 
 
 
@@ -118,6 +169,7 @@ footer {
     font-size: 1em;
     text-transform: uppercase;
     letter-spacing: .25em;
+    font-weight: 500;
 }
 
 .nav-links ul {
