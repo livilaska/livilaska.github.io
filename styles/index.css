@@ -151,11 +151,16 @@ footer {
     display: none;
 }
 
-.hamburger img {
-    width:1.75em;
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+    background-color: #7cae49;
 }
 
-@media only screen and (max-width: 768px) {
+button.active {
+    outline: none;
+}
+
+
+@media only screen and (max-width: 950px) {
     .hamburger {
         display: inline-block;
     }
