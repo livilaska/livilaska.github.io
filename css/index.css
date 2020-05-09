@@ -48,7 +48,7 @@ header {
 .home-section-1 {
     text-align: center;
     font-family: sans-serif;
-    height: 500px;
+    height: 600px;
     padding: 0 25px;
 }
 
@@ -78,13 +78,17 @@ header {
     text-align: center;
     font-size: 1.25em;
     padding: 20px;
+    max-width: 250px;
+    margin: auto;
 }
+
 
 .connect-grid-item h3 {
     font-family: Quicksand;
     font-size: 1em;
     letter-spacing: .05em;
     font-weight: 900;
+    margin: 10px 0;
 }
 
 .facebook a {
@@ -97,8 +101,7 @@ header {
 
 .facebook div {
     display:block;
-    height: 50px;
-    margin-bottom: 25px;
+    height: 75px;
 }
 
 .newsletter a {
@@ -111,8 +114,7 @@ header {
 
 .newsletter div {
     display:block;
-    height: 50px;
-    margin-bottom: 25px;
+    height: 75px;
 }
 
 .events a {
@@ -125,8 +127,7 @@ header {
 
 .events div {
     display:block;
-    height: 50px;
-    margin-bottom: 25px;
+    height: 75px;
 }
 
 
@@ -227,7 +228,7 @@ button.hamburger:focus {
 }
 
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 900px) {
     .hamburger {
         display: inline-block;
     }
