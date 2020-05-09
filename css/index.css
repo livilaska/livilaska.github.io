@@ -48,8 +48,8 @@ header {
 .home-section-1 {
     text-align: center;
     font-family: sans-serif;
-    height: 600px;
-    padding: 0 25px;
+    height: auto;
+    padding: 0 25px 50px 25px;
 }
 
 .home-section-inner-1 {
@@ -228,7 +228,7 @@ button.hamburger:focus {
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 768px) {
     .hamburger {
         display: inline-block;
     }
@@ -260,6 +260,10 @@ button.hamburger:focus {
 
     .hamburger-show-nav-links {
         opacity: 1;
+    }
+
+    .connect-grid-container {
+        display:block;
     }
 
 }
