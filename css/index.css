@@ -66,6 +66,7 @@ header {
     font-size: 3em;
     padding-top: 50px;
     margin-top: 0px;
+    margin-bottom: 15px;
     letter-spacing: .05em;
     color: #7cae49;
 }
@@ -82,13 +83,23 @@ header {
     margin: auto;
 }
 
+.connect-grid-item div {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+}
+
+.connect-grid-item div:last-of-type {
+    margin-bottom: 10px;
+}
 
 .connect-grid-item h3 {
     font-family: Quicksand;
     font-size: 1em;
     letter-spacing: .05em;
     font-weight: 900;
-    margin: 10px 0;
+    margin: 0;
 }
 
 .facebook a {
@@ -99,10 +110,7 @@ header {
     background-size: contain;
 }
 
-.facebook div {
-    display:block;
-    height: 75px;
-}
+
 
 .newsletter a {
     background: url("../images/newsletter.png") no-repeat;
@@ -112,10 +120,7 @@ header {
     background-size: contain;
 }
 
-.newsletter div {
-    display:block;
-    height: 75px;
-}
+
 
 .events a {
     background: url("../images/calendar.png") no-repeat;
@@ -125,10 +130,6 @@ header {
     background-size: contain;
 }
 
-.events div {
-    display:block;
-    height: 75px;
-}
 
 
 
