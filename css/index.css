@@ -11,6 +11,7 @@
 body {
     margin: 0;
     padding-top: 120px;
+    transition: padding-top .3s ease-in-out;
 }
 
 header {
@@ -150,6 +151,7 @@ footer {
     margin: auto;
     justify-content: space-between;
     padding: 0 25px;
+    transition: height .3s ease-in-out;
 }
 
 .footer-content {
@@ -222,6 +224,8 @@ footer {
 .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after,
 .hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner::before, .hamburger.is-active .hamburger-inner::after{
     background-color: #7cae49;
+    height:1.5px;
+    width: 35px;
 }
 
 button.hamburger:focus {
@@ -240,34 +244,51 @@ button.hamburger:focus {
     padding: 0;
     border-bottom: 2px solid #eee;
     background-color: #fff;
+  
     }
 
     .nav-links {
         position: absolute;
-        top: 120px;
+        top: 0px;
         left: 0px;
+        margin-top: 120px;
         width: 100%;
-        opacity: 0;
-
+        max-height: 0px;
+        overflow: hidden;
+        transition: all .3s ease-in-out;
     }
 
     .nav-links a {
         display: block;
-        padding: 15px 0;
-        /*color: #fff;
-        background-color: #2B6592;*/
-        opacity: 1;
+        padding: 25px 0;
     }
 
     .hamburger-show-nav-links {
-        opacity: 1;
+        transition: all .3s ease-in-out;
+        max-height:500px;
     }
 
     .connect-grid-container {
         display:block;
     }
+    .small-nav-margin {
+        margin-top: 80px;
+        transition: all .3s ease-in-out;
+    }
 
 }
+
+.small-nav {
+    height: 80px;
+    transition: height .3s ease-in-out;
+}
+
+.small-nav-padding {
+    padding-top: 80px;
+    transition: padding-top .3s ease-in-out;
+}
+
+
 
 
 

@@ -17,6 +17,21 @@ function SiteNavigation() {
             this.nextElementSibling.classList.toggle('hamburger-show-nav-links');
             this.classList.toggle('is-active');
         }
+        window.onscroll = function() {
+            if (this.document.body.scrollTop > 50 || this.document.documentElement.scrollTop > 50) {
+                this.document.querySelector('nav').classList.add('small-nav');
+                this.document.querySelector('.nav-links').classList.add('small-nav-margin');
+                this.document.body.classList.add('small-nav-padding');
+                
+            }
+            else {
+                this.document.querySelector('nav').classList.remove('small-nav');
+                this.document.querySelector('.nav-links').classList.remove('small-nav-margin');
+                this.document.body.classList.remove('small-nav-padding');
+                
+                
+            }
+        }
     }
 
 
