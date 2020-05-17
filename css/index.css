@@ -12,7 +12,7 @@ body {
     overflow-x: hidden;
     margin: 0;
     padding-top: 120px;
-    transition: padding-top .3s ease-in-out .1s;
+    transition: padding-top .3s ease-in-out;
 }
 
 header {
@@ -152,7 +152,8 @@ footer {
     margin: auto;
     justify-content: space-between;
     padding: 0 25px;
-    transition: height .3s ease-in-out .1s;
+    transition: height .3s ease-in-out;
+    overflow-x: hidden;
 }
 
 .footer-content {
@@ -256,7 +257,7 @@ button.hamburger:focus {
         width: 100%;
         max-height: 0px;
         overflow: hidden;
-        transition: all .3s ease-in-out .1s;
+        transition: all .3s ease-in-out;
     }
 
     .nav-links a {
@@ -265,7 +266,7 @@ button.hamburger:focus {
     }
 
     .hamburger-show-nav-links {
-        transition: all .3s ease-in-out .1s;
+        transition: all .3s ease-in-out;
         max-height:500px;
     }
 
@@ -274,19 +275,19 @@ button.hamburger:focus {
     }
     .small-nav-margin {
         margin-top: 80px;
-        transition: all .3s ease-in-out .1s;
+        transition: all .3s ease-in-out;
     }
 
 }
 
 .small-nav {
     height: 80px;
-    transition: height .3s ease-in-out .1s;
+    transition: height .3s ease-in-out;
 }
 
 .small-nav-padding {
     padding-top: 80px;
-    transition: padding-top .3s ease-in-out .1s;
+    transition: padding-top .3s ease-in-out;
 }
 
 
