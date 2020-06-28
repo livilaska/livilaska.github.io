@@ -22,13 +22,13 @@ header {
     width: 100%;
     z-index: 1;
     background-color: #fff;
-    transform: translate3d(0,0,0);
 }
 
 .home-image {
     background: url("../images/vegetables.jpg") no-repeat;
     background-size: cover;
     height: auto;
+    background-position-x: center;
 }
 
 .home-image-inner {
@@ -55,12 +55,27 @@ header {
     padding: 0 25px 50px 25px;
 }
 
+.home-section-2 {
+    font-family: sans-serif;
+    height: auto;
+    padding: 25px 25px 50px 25px;
+    background-color: #7cae49;
+}
+
 .home-section-inner-1 {
     margin: auto;
     max-width: 1200px;
     color:gray;
     font-family: Quicksand;
     
+}
+
+.plant-pure {
+    background: url("../images/badgeWshadow.png") no-repeat;
+    display:inline-block;
+    width: 250px;
+    height: 250px;
+    background-size: contain;
 }
 
 .home-section-inner-1 h2 {
@@ -78,6 +93,9 @@ header {
     display:grid;
     grid-template-columns: 33% 33% 33%;
 }
+
+
+
 .connect-grid-item {
     text-align: center;
     font-size: 1.25em;
@@ -136,6 +154,56 @@ header {
 
 
 
+.plant-pure-grid-container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 50% 50%;
+    word-break: break-all;
+}
+
+.plant-pure-grid-item {
+    font-size: 1.25em;
+    padding: 20px;
+}
+
+.communities-links a, .communitie-links a:visited {
+    font-family: Quicksand;
+    text-decoration: none;
+    font-size: 1.5em;
+    color:#fff;
+}
+
+.communities-links a:hover {
+    text-decoration: underline;
+}
+
+.communities-logo {
+    justify-self: center;
+}
+
+
+@media only screen and (max-width: 1025px) {
+    .communities-links a {
+        font-size: 1em;
+    }
+}
+
+.communities-links div:first-of-type {
+    margin-bottom: 25px;
+}
+
+    
+
+
+
+
+
+
+
+
+
+
 footer {
     height: 450px;
     background-color:#f9f5ee;
@@ -153,8 +221,7 @@ footer {
     margin: auto;
     justify-content: space-between;
     padding: 0 25px;
-    transition: height .3s ease-in-out;
-    transform: translate3d(0,0,0);
+    transition: all .3s ease-in-out;
 }
 
 .footer-content {
@@ -271,9 +338,18 @@ button.hamburger:focus {
         max-height:500px;
     }
 
-    .connect-grid-container {
+    .connect-grid-container, .plant-pure-grid-container {
         display:block;
     }
+
+    .plant-pure-grid-item {
+        margin:auto;
+    }
+
+    .plant-pure-grid-container {
+        text-align:center;
+    }
+
     .small-nav-margin {
         margin-top: 80px;
         transition: all .3s ease-in-out;
@@ -283,7 +359,13 @@ button.hamburger:focus {
 
 .small-nav {
     height: 80px;
-    transition: height .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    
+}
+
+.small-nav-header 
+{
+    box-shadow: 0 4px 6px -6px #222;
 }
 
 .small-nav-padding {

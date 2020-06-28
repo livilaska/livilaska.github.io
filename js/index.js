@@ -20,12 +20,14 @@ function SiteNavigation() {
         window.onscroll = function() {
             if (this.document.body.scrollTop > 50 || this.document.documentElement.scrollTop > 50) {
                 this.document.querySelector('nav').classList.add('small-nav');
+                this.document.querySelector('header').classList.add('small-nav-header');
                 this.document.querySelector('.nav-links').classList.add('small-nav-margin');
                 this.document.body.classList.add('small-nav-padding');
                 
             }
             else {
                 this.document.querySelector('nav').classList.remove('small-nav');
+                this.document.querySelector('header').classList.remove('small-nav-header');
                 this.document.querySelector('.nav-links').classList.remove('small-nav-margin');
                 this.document.body.classList.remove('small-nav-padding');
                 
