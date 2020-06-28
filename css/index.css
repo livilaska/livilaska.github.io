@@ -159,11 +159,10 @@ header {
     align-items: center;
     justify-content: center;
     grid-template-columns: 50% 50%;
-    word-break: break-all;
 }
 
 .plant-pure-grid-item {
-    font-size: 1.25em;
+    font-size: 1em;
     padding: 20px;
 }
 
@@ -183,14 +182,11 @@ header {
 }
 
 
-@media only screen and (max-width: 1025px) {
-    .communities-links a {
-        font-size: 1em;
-    }
-}
 
-.communities-links div:first-of-type {
-    margin-bottom: 25px;
+
+.communities-links div:last-of-type {
+    margin-top: 50px;
+    margin-left: -75px;
 }
 
     
@@ -342,12 +338,10 @@ button.hamburger:focus {
         display:block;
     }
 
-    .plant-pure-grid-item {
-        margin:auto;
-    }
 
-    .plant-pure-grid-container {
-        text-align:center;
+
+    .communities-links div:last-of-type {
+        margin-left: 0px;
     }
 
     .small-nav-margin {
