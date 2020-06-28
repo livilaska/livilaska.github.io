@@ -338,7 +338,10 @@ button.hamburger:focus {
         display:block;
     }
 
-
+    .plant-pure-grid-container {
+        margin:auto;
+        text-align: center;
+    }
 
     .communities-links div:last-of-type {
         margin-left: 0px;
