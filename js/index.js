@@ -16,7 +16,7 @@ function SiteNavigation() {
         hamburgerMenu.onclick = function() {
             this.nextElementSibling.classList.toggle('hamburger-show-nav-links');
             this.classList.toggle('is-active');
-        }
+        }/*
         window.onscroll = function() {
             if (this.document.body.scrollTop > 50 || this.document.documentElement.scrollTop > 50) {
                 this.document.querySelector('nav').classList.add('small-nav');
@@ -33,7 +33,7 @@ function SiteNavigation() {
                 
                 
             }
-        }
+        }*/
     }
 
 
