@@ -369,7 +369,7 @@ button.hamburger:focus {
         max-height:500px;
     }
 
-    .connect-grid-container, .plant-pure-grid-container {
+    .connect-grid-container, .plant-pure-grid-container, .movies-grid-container  {
         display:block;
     }
 
